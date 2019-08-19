@@ -1,0 +1,37 @@
+home
+{
+    float: left;
+    width: 25%;
+    padding: 28px;
+    text-align: center;
+}
+contact
+{
+    float: left;
+    width: 25%;
+    padding: 28px;
+    text-align: center;
+}
+feedback
+{
+    float: left;
+    width: 25%;
+    padding: 28px;
+    text-align: center;
+}
+about 
+{
+    float: left;
+    width: 25%;
+    padding: 28px;
+    text-align: center;
+}
+footer a{
+    color: white;
+}
+footer {
+    background-color: rgb(26, 109, 102);
+    text-align: center;
+    color: white;
+    height: 80px;
+  } 
