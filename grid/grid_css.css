@@ -1,0 +1,148 @@
+
+* {
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fcf7f7;
+    box-shadow: 5px 10px rgba(43, 40, 40, 0.5);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(43, 40, 40, 0.5);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(43, 40, 40, 0.5); 
+}
+
+.grid-container {
+    display: grid;
+
+  }
+  
+
+  .headeritems{
+    background-color: rgb(151, 231, 241);
+    text-align: center;
+    font-size: 20px;
+    height: 100px; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+
+ }
+  .header {
+    grid-column: 1 / span 5;
+    grid-row: 1;
+    border-radius: 10px;    
+
+  }
+
+  .menu {
+    height: 500px;
+    grid-column:  1 ;
+    grid-row: 2;
+    background-color: white;
+    border-radius: 10px; 
+   
+  }
+  .content {
+    height: 500px;
+    grid-column:  2/span 4;
+    grid-row: 2;
+    padding-top: 10px;
+    padding-left: 20px;
+    background-color: #eff7f6;
+    border-radius: 10px;    
+  }
+  .footer {
+  
+    grid-column: 1 / span 5;
+    grid-row: 3;
+    background-color: rgb(26, 109, 102);
+    padding-top: 30px;
+    text-align: center;
+    height: 80px;
+  }
+  .logo{
+    grid-column:1;
+    grid-row: 1;
+  }
+  .name{
+    grid-column: 2/span 5;
+    grid-row: 1;
+  }
+
+  .home{
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .contact{
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .about{
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .feedback{
+    grid-column: 4;
+    grid-row: 1;
+  }
+  .footer a{
+    color: white;
+  }
+  
+  .navbar li:hover{
+    background-color:rgba(209, 231, 229);
+    border: solid 1.5px rgb(72, 138, 151);
+    color: white;
+    border-radius: 10px;
+}
+
+table{
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  text-align: left;
+  font-size: 15px;
+}
+.task_list td{
+  width: 30%;
+}
+.task_list tr{
+  height: 50px;
+  margin-top: 25px;
+}
+
+  button{
+    padding: 10px;
+    font-size: 15px;
+    width: auto;
+    background-color: rgb(26, 109, 102);
+    color: white;
+
+}
+  #login{
+    text-align: center;
+  }
+  img{
+    height: 80px;
+    width: 80px;
+  }
+  .navbar {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+
+}
+.navbar li{
+    font-size: 18px;
+    padding: 15px;
+}
+.navbar li a{
+    color: black;
+}
+input{
+  padding: 10px;
+}
